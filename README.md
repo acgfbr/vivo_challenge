@@ -56,6 +56,8 @@ Documentação da api: https://documenter.getpostman.com/view/2492835/TVCdzoCt
 Verificações que não foram feitas:
 
 1 - Se o from e o to são iguais e/ou existem
+
 2 - Não foi colocada foreign key
+
 3 - Não foram feitos testes unitários e nem de integração
 
