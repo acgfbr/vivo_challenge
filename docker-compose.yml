@@ -1,0 +1,19 @@
+version: "3"
+services:
+  nginx:
+    image: nginx:latest
+    ports:
+      - "80:80"
+    links:
+      - fpm
+    volumes:
+      - ./:/var/www/lumen
+      - ./docker/nginx/vhost.conf:/etc/nginx/conf.d/lumen.conf
+    working_dir: /var/www/lumen
+  fpm:
+    build: ./docker/php-fpm
+    volumes:
+      - ./:/var/www/lumen
+    working_dir: /var/www/lumen
+volumes:
+  data:
