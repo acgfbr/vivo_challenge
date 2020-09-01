@@ -29,16 +29,16 @@ O readme está em português mas o projeto é 100% feito em inglês.
 
 Vídeos do funcionamento:
 
-# Bots
+# Bots - https://recordit.co/CrE5ShD8ZR
 -   1 - Criação de um bot
 -   2 - Atualização de um bot
 -   3 - Remoção de um bot
 -   4 - Listagem de bot(s)
 -   ----------------------------------------- 
-# Mensagens
+# Mensagens - http://recordit.co/BkpuWGzB3j
 -   1 - Criação de uma mensagem
 -   2 - Listagem de mensagem por id
--   3 - Listagem de mensagens por conversation_id
+-   3 - Listagem de mensagens por conversationId
 <hr>
 
 Referente a arquitetura e engenharia não tem muito o que explicar, eu pegaria o mesmo docker que está neste projeto e colocaria num cluster de kubernetes, alocaria 1 único pod a ele e definiria o escalonamento baseado em consumo de recursos (requests).
