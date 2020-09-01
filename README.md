@@ -51,7 +51,7 @@ Foram cumpridos todo o proposto do desafio.
 
 Utilizei soft deletes para nunca remover o dado do banco de dados, imagino que a vivo uso a mesma abordagem porque a qualquer momento (30 dias ou 20 anos, o cliente poderá solicitar qualquer informação.)
 
-Documentação da api: https://www.getpostman.com/collections/79706fe8bfdf5a50f836
+Documentação da api: https://documenter.getpostman.com/view/2492835/TVCdzoCt
 
 Verificações que não foram feitas:
 
